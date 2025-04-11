@@ -1,0 +1,45 @@
+/* button-style-guide.css */
+
+.project-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: 1px solid #8fbddf;
+  border-radius: 6px;
+  color: #8fbddf;
+  background-color: transparent;
+  transition: background 0.3s, color 0.3s;
+}
+
+.project-link:hover {
+  background-color: #8fbddf;
+  color: #0a0f1c;
+}
+
+/* Optional debug version */
+.test-box {
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px dashed red;
+}
+
+body {
+  background-color: #0a0f1c;
+  color: #dce7f3;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #8fbddf;
+  margin-bottom: 1rem;
+}

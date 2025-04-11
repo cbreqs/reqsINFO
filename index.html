@@ -5,22 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>reqsINFO</title>
   <link rel="stylesheet" href="../style.css" />
-  <script defer>
-    document.addEventListener("DOMContentLoaded", () => {
-      const pages = {
-        "The Percolator": "<h1>The Percolator</h1><p>This is a sample note about BIM standards and project flow.</p>",
-        "Technique Hole": "<h1>Technique Hole</h1><p>Monthly meeting notes and strategy planning.</p>",
-        "Move Revit Backup Files": "<h1>Move Revit Backup Files</h1><p>Instructions on how to clean up .0001.rvt backups using a PowerShell script.</p>"
-      };
-
-      document.querySelectorAll("#nav-pages li").forEach(item => {
-        item.addEventListener("click", () => {
-          const content = pages[item.textContent] || "<h1>Note</h1><p>No content yet.</p>";
-          document.getElementById("note-content").innerHTML = content;
-        });
-      });
-    });
-  </script>
   <style>
     body {
       margin: 0;
